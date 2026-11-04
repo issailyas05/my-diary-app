@@ -1,0 +1,15 @@
+{
+  "name": "my-diary-app",
+  "version": "1.0.0",
+  "description": "A simple diary note app using DynamoDB",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0",
+    "express": "^4.18.2"
+  }
+}
